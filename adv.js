@@ -42,12 +42,6 @@ function displayUserOnScreen() {
         userList.appendChild(userItem);
         console.log(data);
       })
-      //const userItem = document.createElement("li");
-    //   userItem.appendChild(
-    //     document.createTextNode(
-    //       `${response.username} - ${userDetails.email} - ${userDetails.phone}`
-    // )
-  //);
     })
     .catch((error) => console.log(error));
 
